@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "962991103422",
+    "firebase_url": "https://marlin3-e1986.firebaseio.com",
+    "project_id": "marlin3-e1986",
+    "storage_bucket": "marlin3-e1986.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962991103422:android:cf35e8e02d525adb",
+        "android_client_info": {
+          "package_name": "com.rakasettya.marlin3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962991103422-vsf71af21jp3qecofn8kk2ic74mqekkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rakasettya.marlin3",
+            "certificate_hash": "6de95fe95d03ba4eb6b9e829ad11161eeaad35cd"
+          }
+        },
+        {
+          "client_id": "962991103422-br1dprsbvdm1ojfjt73p5cd9fidqdlnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVrUsMqU50HtEdBux-XaNLzWNpoBlI2qY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962991103422-br1dprsbvdm1ojfjt73p5cd9fidqdlnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

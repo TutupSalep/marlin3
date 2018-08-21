@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="@dimen/activity_horizontal_margin"
+  android:orientation="vertical">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp">
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <TextView
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Company"
+        android:textColor="@color/cardview_dark_background" />
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <TextView
+        android:id="@+id/bracketSeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/company"
+        android:text="tipe seat"
+        android:textColor="@color/cardview_dark_background" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <TextView
+        android:id="@+id/port_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Port Code"
+        android:textAlignment="textEnd"
+        android:textColor="@color/cardview_dark_background"/>
+    </LinearLayout>
+
+  </LinearLayout>
+  <TextView
+    android:id="@+id/description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:maxLines="3"
+    android:text="Description"
+    android:textAlignment="textStart"
+    android:textColor="@color/cardview_dark_background"/>
+  <TextView
+    android:id="@+id/price"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:text="Price"
+    android:textColor="@color/cardview_dark_background" />
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp">
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentStart="true"
+        android:text="City From"
+        android:textAlignment="textStart"/>
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignBaseline="@+id/tvNumber"
+        android:layout_alignBottom="@+id/tvNumber"
+        android:text="City To"
+        android:textAlignment="textStart"/>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <TextView
+        android:id="@+id/city_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentEnd="true"
+        android:text="Singapore"
+        android:textAlignment="textEnd"
+        android:textColor="@color/blue_grey_light"/>
+      <TextView
+        android:id="@+id/city_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignBaseline="@+id/city_from"
+        android:layout_alignBottom="@+id/city_from"
+        android:layout_toStartOf="@+id/city_from"
+        android:text="Indonesia"
+        android:textAlignment="textEnd"
+        android:textColor="@color/blue_grey_light"/>
+    </LinearLayout>
+
+  </LinearLayout>
+
+</LinearLayout>
